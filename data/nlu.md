@@ -16,6 +16,7 @@
 - heya
 - hi]
 - hello I am bo
+- hii
 
 ## intent:goodbye
 - bye
