@@ -1,0 +1,43 @@
+slots:
+  targetcalories:
+    type: unfeaturized
+  title:
+    type: unfeaturized
+  readyInMinutes:
+    type: unfeaturized
+  recipeID:
+    type: unfeaturized
+  sourceUrl:
+    type: unfeaturized
+  instructions:
+    type: unfeaturized
+
+entities:
+  - targetcalories
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - inform
+
+responses:
+  utter_greet:
+  - text: "Hello! My name is Bob. I'm here to help you find the best recipe according to your goal. Are you ready?"
+
+  utter_ask_target_calories:
+  - text: "What are your target daily calories intake?"
+  
+  utter_next_time:
+  - text: "ohh.. Hope to see you next time."
+  - text: "It's okay that you are not ready. Let's do it next time!"
+
+  utter_goodbye:
+  - text: "Bye"
+  - text: "Goodbye. Have a nice day!"
+
+actions:
+  - action_search_recipe
+  - action_suggestion
+
