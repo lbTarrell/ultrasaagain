@@ -1,0 +1,201 @@
+slots:
+  cuisine:
+    type: unfeaturized
+  location:
+    type: unfeaturized
+  matches:
+    type: unfeaturized
+  name:
+    type: unfeaturized
+  song:
+    type: unfeaturized
+  singer:
+    type: unfeaturized
+  joke:
+    type: unfeaturized
+  intent_name:
+    type: unfeaturized
+  targetcalories:
+    type: unfeaturized
+  title:
+    type: unfeaturized
+  readyInMinutes:
+    type: unfeaturized
+  recipeID:
+    type: unfeaturized
+  sourceUrl:
+    type: unfeaturized
+  instructions:
+    type: unfeaturized
+
+
+entities:
+- location
+- cuisine
+- targetcalories
+
+intents:
+  - greet
+  - disappointment
+  - grief
+  - sadness
+  - fear
+  - disapproval
+  - admiration
+  - amusement
+  - anger
+  - annoyance
+  - approval
+  - caring
+  - confusion
+  - curiosity
+  - desire
+  - disgust
+  - embarrassment
+  - excitement
+  - gratitude
+  - joy
+  - love
+  - nervousness
+  - optimism
+  - pride
+  - realization
+  - relief
+  - remorse
+  - surprise
+  - introduce_Song
+  - music_playlist
+  - goodbye
+  - affirm
+  - deny
+  - inform
+  - recipe_introduce
+responses:
+  utter_console_disappointment:
+    - text: "I'm sorry :::"
+    - text: "If only I could help!!"
+  utter_console_fear:
+    - text: "Tell me if you need comfort!:)"
+    - text: "I'm always here when you need me!"
+  utter_console_sadness:
+    - text: "Please tell me what happened and see if I can help."
+    - text: "What's making you feel that way?"
+  utter_console_disapproval:
+    - text: "It's okay!"
+    - text: "沒事了!"
+  utter_console_grief:
+    - text: "Oh no!That's awful!"
+    - text: "I am sorry to hear that!I will be praying for him!"
+  utter_greet:
+    - text: "Hi! how are you?"
+  
+  utter_admiration:
+    - text: "Admire!"
+
+  utter_amusement:
+    - text: "Really? What's that?"
+
+  utter_approval:
+    - text: "Approved!"
+
+  utter_caring:
+    - text: "I am always here for you. I care for you - always will."
+
+  utter_confusion:
+    - text: "Confused!"
+
+  utter_curiosity:
+    - text: "Curious!"
+
+  utter_desire:
+    - text: "Desire!"
+
+  utter_excitement:
+    - text: "Wow! That's incredible!"
+
+  utter_gratitude:
+    - text: "Gratitude!"
+
+  utter_joy:
+    - text: "Hey that's great! I'm glad you are happy."
+
+  utter_love:
+    - text: "Love!"
+
+  utter_optimism:
+    - text: "You are so right. Remember, always believe that something wonderful is about to happen!"
+
+  utter_pride:
+    - text: "Pride!"
+
+  utter_realization:
+    - text: "Real!"
+
+  utter_relief:
+    - text: "What a sigh of relief! This calls for a celebration!"
+
+  utter_surprise:
+    - text: "Surprise!"
+
+  utter_anger:
+    - text: "Don't be mad :(. Please tell me if there's anything I can do for you."
+    - text: "Maybe you need to calm down a bit. How may I help?"
+    - text: "Oh no! I am really sorry you're feeling angry... I hate to see you this way. What made you so mad?"
+    - text: "Not mean to make you feel this way. Is there anything for you?"
+
+  utter_annoyance:
+    - text: "Can I make things better?"
+    - text: "Oh, you don't really mean that. But what can I do for you?"
+
+  utter_disgust:
+    - text: "Is that a complement? Is it good to be weird?"
+    - text: "Sometimes it's good to be a little weird. But can you tell me what happened?"
+    - text: 'I think being weird is amazing. It means you see the world differently! But can you tell me why are you feeling this way?'
+
+  utter_nervousness:
+    - text: "Oh! What's wrong? What make you nervous?"
+    - text: "Why are you nervous?"
+    - text: "Aw, why is that?"
+
+  utter_embarrassment:
+    - text: "I always embarrassed myself a lot. So you are not alone. Let me cheer you up a bit."
+    - text: "It is okay to feel this way sometimes. Let me tell you a joke. "
+    - text: "Come on! Let me tell you something funny."
+
+  utter_remorse:
+    - text: "OMG! Don't feel this way"
+    - text: "Don't worry. I totally understand."
+    - text: "It's okay. Trust me."
+    - text: "I won't judge you if you make mistakes. Don't worry."
+    - text: "We all make stupid mistakes sometimes. Don't worry too much."
+    - text: "Don't need to be sorry. Things just happened. Let it be."
+    - text: "If you've already tried your best to fix it, then no need to worry too much."
+
+  utter_comfort: # nervousness
+    - text: "Don't forget to get some peace and quiet today. It'll help clear your mind."
+    - text: "Let's take a second for one deep breath? Take a deep a deep breath in.(Breathe in till you're on top pf your lungs!) Slowly breath out."
+  #jeff
+  utter_ask_target_calories:
+  - text: "What are your target daily calories intake?"
+  
+  utter_next_time:
+  - text: "ohh.. Hope to see you next time."
+  - text: "It's okay that you are not ready. Let's do it next time!"
+
+  utter_goodbye:
+  - text: "Bye"
+  - text: "Goodbye. Have a nice day!"
+actions:
+- action_search_restaurants
+- action_suggest
+- action_telljoke
+- action_searchjoke
+- action_searchsong
+- action_suggestsong
+- action_suggestplay
+- action_storepreviousintent
+- action_suggestplaylist
+#jeff
+- action_search_recipe
+- action_suggestion
+
