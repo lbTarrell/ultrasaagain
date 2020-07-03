@@ -14,6 +14,7 @@
 - good afternoon
 - howdy
 - heya
+- hi]
 
 ## intent:goodbye
 - bye
@@ -47,4 +48,3 @@
 - around [1950] (targetcalories)
 - The target calories are [2100] (targetcalories)
 - [1900] (targetcalories) is good for me.
-
