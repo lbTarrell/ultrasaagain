@@ -87,6 +87,8 @@ responses:
   - text: I am sorry to hear that!I will be praying for him!
   utter_greet:
   - text: Hello! I am Joice, your personal assistant. How may I help you?
+  - image: https://media.giphy.com/media/L13NsH0Aij4Sf2Gdjt/giphy.gif
+    text: Yo man! I'm Joice, your dearest friend! How You Doin'?🤪
   - text: Hi! This is Joice. How can i help you?
   utter_admiration:
   - text: Admire!
@@ -115,7 +117,6 @@ responses:
   - text: I'm loving this!
   - image: https://media.giphy.com/media/cstHEo3umAADEfFAvZ/giphy.gif
     text: This is lovely! Actually, this is how i really felt when i heard this!
-  - text: image:https://media.giphy.com/media/f9Rrghj6TDckb5nZZR/giphy.gif
   utter_optimism:
   - text: You are so right. Remember, always believe that something wonderful is about
       to happen!
@@ -182,6 +183,10 @@ responses:
     - payload: /bye
       title: No sir
     text: Do you want to see magic?
+  utter_bye:
+  - text: It's nice talking to you. Love you n goodbye!
+  - text: Hope talking to u soon. Bye!
+  - text: Byebeeeee
 actions:
 - action_search_restaurants
 - action_suggest
@@ -225,4 +230,5 @@ actions:
 - utter_comfort
 - utter_ask_target_calories
 - utter_next_time
+- utter_bye
 - utter_lottatesting

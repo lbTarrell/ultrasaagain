@@ -73,6 +73,7 @@
 - hi]
 - hii
 - hhi
+- meow
 
 ## intent:admiration
 - oh. This is great
@@ -201,6 +202,7 @@
 - I did something stupid in front of the class. How embarrassing!
 - Oh! I failed again! What a shame!
 - so embarassed
+- you shouldn't ask this. So awkward!
 
 ## intent:excitement
 - i got praised today
@@ -230,6 +232,7 @@
 - a dog smiled at me
 - I saw rainbow today
 - feeling a lot better now
+- haha
 
 ## intent:love
 - Nice, I love it.
@@ -265,6 +268,7 @@
 - better things ahead
 - sun shines again
 - i feel so good today
+- i am good
 
 ## intent:pride
 - awesome, I'm proud of you.
@@ -324,6 +328,7 @@
 - introduce me a playlist
 - give me music
 - what's the hot song now
+- i need a song
 
 ## intent:music_playlist
 - give me a music playlist
@@ -335,6 +340,7 @@
 - any music playlist
 - playlist
 - any musicplaylist
+- introduce me some playlist based on my current mood
 
 ## intent:inform
 - The daily calories should be below [1800](targetcalories)
@@ -346,6 +352,8 @@
 - i am hungry
 - i m hungry
 - [10000](targetcalories) will do
+- what should i have for dinner tonight
+- [10000000](targetcalories)
 
 ## intent:affirm
 - I feel fat these day
@@ -354,6 +362,7 @@
 
 ## intent:bye
 - bye
+- thanks and bye
 
 ## intent:lotatest
 - I am lota testing
