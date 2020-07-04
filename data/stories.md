@@ -210,7 +210,7 @@
     - utter_admiration
     - slot{"targetcalories":"10000"}
 * bye
-    - utter_bye
+    - utter_next_time
 
 ## New Story
 

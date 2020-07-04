@@ -117,6 +117,7 @@ responses:
     text: This is lovely! Actually, this is how i really felt when i heard this!
   - image: https://media.giphy.com/media/xTiTnMhJTwNHChdTZS/giphy.gif
     text: Awww! U are so sweet!
+  - text: Tell me it's love it's all I want to hear you say ~
   utter_optimism:
   - text: You are so right. Remember, always believe that something wonderful is about
       to happen!
@@ -191,6 +192,8 @@ responses:
   - text: I'm here!
   utter_friend:
   - text: I'm your friend! Tell me what's going on in your life today?
+  utter_caring:
+  - text: I am always here for you. I care for you - always will.
 actions:
 - action_search_restaurants
 - action_suggest

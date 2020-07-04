@@ -161,6 +161,7 @@
 - it just hurts so much sometimes
 - being alone really sucks
 - life is so tiring
+- Can you be my friend
 
 ## intent:confusion
 - I’m confused
