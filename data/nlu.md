@@ -68,6 +68,7 @@
 - how
 - heya
 - Hey yo what’s up
+- yoooo
 
 ## intent:admiration
 - oh. This is great
@@ -309,6 +310,7 @@
 - Which song do you like the most?
 - your favorite song
 - What's your favorite song?
+- give me song
 
 ## intent:music_playlist
 - give me a music playlist
