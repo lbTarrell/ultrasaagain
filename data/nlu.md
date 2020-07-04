@@ -144,6 +144,8 @@
 - you are such a dumb ass
 - you are so dumb
 - you are so fucking stupid
+- my cat always piss me off
+- my cat pissed me off this morning
 
 ## intent:approval
 - I agree with you to some degree.
@@ -254,6 +256,7 @@
 - feeling a lot better now
 - haha
 - i am happy
+- happy
 
 ## intent:love
 - Nice, I love it.
@@ -282,6 +285,7 @@
 - I am feeling anxious
 - My fear comes from the upcoming performance
 - Things just got screwed up by me.
+- i feel so stressful
 
 ## intent:optimism
 - sunshine after the rain
@@ -317,6 +321,7 @@
 - i dont have cancer
 - wasnt mad at me
 - didnt lose money
+- feeling better
 
 ## intent:remorse
 - I just can't apologize enough.
@@ -351,6 +356,7 @@
 - give me music
 - what's the hot song now
 - i need a song
+- what is the best song during shower
 
 ## intent:music_playlist
 - give me a music playlist
@@ -365,6 +371,7 @@
 - introduce me some playlist based on my current mood
 - introduce me a playlist please
 - Give me a playlist
+- how about playlist
 
 ## intent:inform
 - The daily calories should be below [1800](targetcalories)
@@ -385,6 +392,7 @@
 - the target calroies is [2100](targetcalories)
 - below [2100](targetcalories)
 - Where are you
+- any dinner suggestion?
 
 ## intent:affirm
 - I feel fat these day
