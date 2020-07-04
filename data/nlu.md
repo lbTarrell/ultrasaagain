@@ -342,6 +342,8 @@
 - around [1950](targetcalories)
 - The target calories are [2100](targetcalories)
 - [1900](targetcalories) is good for me.
+- i am hungry
+- i m hungry
 
 ## intent:affirm
 - I feel fat these day
