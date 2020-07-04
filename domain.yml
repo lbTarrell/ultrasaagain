@@ -36,6 +36,7 @@ intents:
 - inform
 - bye
 - lotatest
+- deny
 entities:
 - location
 - cuisine
@@ -73,6 +74,8 @@ responses:
   utter_console_disappointment:
   - text: "I'm sorry :::"
   - text: If only I could help!!
+  - text: Really sorry if you feel this way. Is there any other thing I can do for
+      you?
   utter_console_fear:
   - text: Tell me if you need comfort!:)
   - text: I'm always here when you need me!
@@ -81,7 +84,7 @@ responses:
   - text: What's making you feel that way?
   utter_console_disapproval:
   - text: It's okay!
-  - text: No Proble!
+  - text: No Problem!
   utter_console_grief:
   - text: Oh no!That's awful!
   - text: I am sorry to hear that!I will be praying for him!
@@ -92,12 +95,13 @@ responses:
   - text: Hi! This is Joice. How can i help you?
   utter_admiration:
   - text: Admire!
+  - text: I'm so glad that you like me. You are so sweet.
   utter_amusement:
   - text: Really? What's that?
   utter_approval:
   - text: Approved!
   utter_confusion:
-  - text: Confused!
+  - text: I'm getting confused. Can you further explain?
   utter_curiosity:
   - text: Curious!
   utter_desire:
@@ -162,8 +166,11 @@ responses:
   - text: If you've already tried your best to fix it, then no need to worry too much.
   utter_comfort:
   - text: Don't forget to get some peace and quiet today. It'll help clear your mind.
-  - text: Let's take a second for one deep breath? Take a deep a deep breath in.(Breathe
+  - image: https://media.giphy.com/media/USbYNzaNRPcMbMwgCz/giphy.gif
+    text: Let's take a second for one deep breath? Take a deep a deep breath in.(Breathe
       in till you're on top pf your lungs!) Slowly breath out.
+  - image: https://media.giphy.com/media/1hBWtlbvOBi5fS2VcZ/giphy.gif
+    text: Let's chill out a bit. Sometimes we gotta learn from Sloths.
   utter_ask_target_calories:
   - text: What are your target daily calories intake?
   utter_next_time:
@@ -194,6 +201,9 @@ responses:
   - text: I'm your friend! Tell me what's going on in your life today?
   utter_caring:
   - text: I am always here for you. I care for you - always will.
+  utter_deny:
+  - text: Ohh! that's okay.
+  - text: Opps! That's totally fine
 actions:
 - action_search_restaurants
 - action_suggest
@@ -240,4 +250,5 @@ actions:
 - utter_bye
 - utter_here
 - utter_friend
+- utter_deny
 - utter_lottatesting

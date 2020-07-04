@@ -85,6 +85,8 @@
 - moew
 - hihihi
 - hey yo
+- hey ma
+- thanks bye
 
 ## intent:admiration
 - oh. This is great
@@ -121,6 +123,7 @@
 - i got something cool
 - do you want to know something
 - do you want to see something amazing
+- i am doing great
 
 ## intent:anger
 - I hate u
@@ -174,6 +177,7 @@
 - What to do
 - Are you sure
 - What should I do
+- do u really think so?
 
 ## intent:curiosity
 - I’m curious
@@ -245,6 +249,7 @@
 - He thanked me politely.
 - I thanked them for the many kindnesses they showed me.
 - thanks
+- cool thanks
 
 ## intent:joy
 - i had a good lunch today
@@ -305,6 +310,7 @@
 - She felt a glow of pride at her daughter's achievements.
 - That was a wound to the child's pride.
 - He prided himself on knowing 5 languages
+- songs in this playlist are beautiful. Thanks
 
 ## intent:realization
 - I realized
@@ -357,6 +363,7 @@
 - what's the hot song now
 - i need a song
 - what is the best song during shower
+- sing me a song
 
 ## intent:music_playlist
 - give me a music playlist
@@ -372,6 +379,8 @@
 - introduce me a playlist please
 - Give me a playlist
 - how about playlist
+- How about playlist?
+- how about music playlist
 
 ## intent:inform
 - The daily calories should be below [1800](targetcalories)
@@ -393,18 +402,27 @@
 - below [2100](targetcalories)
 - Where are you
 - any dinner suggestion?
+- hungry af
+- [700000](targetcalories)
+- Cooking recipe
+- i'm hungry
 
 ## intent:affirm
 - I feel fat these day
 - I am fat
 - indeed
+- Yes
 
 ## intent:bye
 - bye
 - thanks and bye
+- cool!! thanks. Bye
 
 ## intent:lotatest
 - I am lota testing
 - I am lota
 - lota testing
 - I am really lota
+
+## intent:deny
+- nope
