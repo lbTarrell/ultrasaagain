@@ -323,6 +323,7 @@
 - give me song
 - introduce me a playlist
 - give me music
+- what's the hot song now
 
 ## intent:music_playlist
 - give me a music playlist
@@ -344,6 +345,7 @@
 - [1900](targetcalories) is good for me.
 - i am hungry
 - i m hungry
+- [10000](targetcalories) will do
 
 ## intent:affirm
 - I feel fat these day
