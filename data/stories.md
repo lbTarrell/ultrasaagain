@@ -105,7 +105,6 @@
   - action_storepreviousintent
   - utter_nervousness
   - utter_comfort
-  
 
 ## optimism path
 * optimism
@@ -155,3 +154,7 @@
 * inform
  - action_search_recipe
  - action_suggestion
+
+## imlotatesting
+* lotatest
+ - utter_lottatesting

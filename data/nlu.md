@@ -50,6 +50,7 @@
 - painful
 - pain
 - i am painful
+- i am sad
 
 ## intent:greet
 - hi there
@@ -69,6 +70,9 @@
 - heya
 - Hey yo what’s up
 - yoooo
+- hi]
+- hii
+- hhi
 
 ## intent:admiration
 - oh. This is great
@@ -222,6 +226,7 @@
 - yoga was great today
 - i saw rainbow today
 - a dog smiled at me
+- I saw rainbow today
 
 ## intent:love
 - Nice, I love it.
@@ -311,6 +316,7 @@
 - your favorite song
 - What's your favorite song?
 - give me song
+- give me music
 
 ## intent:music_playlist
 - give me a music playlist
@@ -318,6 +324,11 @@
 - give me some playlist
 - i want a youtube playlist
 - introduce me a playlist
+- give me a playlist
+- give me playlist
+- any music playlist
+- playlist
+- any musicplaylist
 
 ## intent:inform
 - The daily calories should be below [1800](targetcalories)
@@ -330,3 +341,11 @@
 ## intent:affirm
 - I feel fat these day
 - I am fat
+- indeed
+
+## intent:bye
+- bye
+
+## intent:lotatest
+- imlotatesting
+- I am lota testing
