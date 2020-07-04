@@ -244,3 +244,28 @@
     - action_storepreviousintent
     - slot{"intent_name":"admiration"}
     - utter_admiration
+
+## New Story
+
+* greet
+    - utter_greet
+* lotatest
+    - utter_lottatesting
+* love
+    - action_storepreviousintent
+    - slot{"intent_name":"love"}
+    - utter_love
+* caring
+    - action_default_ask_rephrase
+* greet
+    - action_storepreviousintent
+    - slot{"intent_name":"greet"}
+    - utter_greet
+* greet
+    - utter_here
+* greet
+    - utter_greet
+* greet
+    - utter_greet
+* desire
+    - utter_friend

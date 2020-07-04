@@ -96,8 +96,6 @@ responses:
   - text: Really? What's that?
   utter_approval:
   - text: Approved!
-  utter_caring:
-  - text: I am always here for you. I care for you - always will.
   utter_confusion:
   - text: Confused!
   utter_curiosity:
@@ -117,6 +115,8 @@ responses:
   - text: I'm loving this!
   - image: https://media.giphy.com/media/cstHEo3umAADEfFAvZ/giphy.gif
     text: This is lovely! Actually, this is how i really felt when i heard this!
+  - image: https://media.giphy.com/media/xTiTnMhJTwNHChdTZS/giphy.gif
+    text: Awww! U are so sweet!
   utter_optimism:
   - text: You are so right. Remember, always believe that something wonderful is about
       to happen!
@@ -166,8 +166,12 @@ responses:
   utter_ask_target_calories:
   - text: What are your target daily calories intake?
   utter_next_time:
-  - text: ohh.. Hope to see you next time.
+  - image: https://media.giphy.com/media/3o7bu47Qm59U3MPkK4/giphy.gif
+    text: ohh.. Hope to see you next time.
   - text: It's okay that you are not ready. Let's do it next time!
+  - image: https://media.giphy.com/media/UQaRUOLveyjNC/giphy.gif
+    text: It's nice talking to you. Love you n goodbye!
+  - text: Hope talking to u soon. Bye!
   utter_lottatesting:
   - buttons:
     - quick_replies: yes ar
@@ -183,10 +187,10 @@ responses:
     - payload: /bye
       title: No sir
     text: Do you want to see magic?
-  utter_bye:
-  - text: It's nice talking to you. Love you n goodbye!
-  - text: Hope talking to u soon. Bye!
-  - text: Byebeeeee
+  utter_here:
+  - text: I'm here!
+  utter_friend:
+  - text: I'm your friend! Tell me what's going on in your life today?
 actions:
 - action_search_restaurants
 - action_suggest
@@ -231,4 +235,6 @@ actions:
 - utter_ask_target_calories
 - utter_next_time
 - utter_bye
+- utter_here
+- utter_friend
 - utter_lottatesting

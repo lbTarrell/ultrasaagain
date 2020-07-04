@@ -7,6 +7,7 @@
 - unfortunately
 - disappointing
 - bas
+- i am disappointed
 
 ## intent:fear
 - I am scared
@@ -74,6 +75,16 @@
 - hii
 - hhi
 - meow
+- hihi
+- hhii
+- meowwww
+- hiii
+- meowwwww
+- hello is me
+- hihihihihih
+- moew
+- hihihi
+- hey yo
 
 ## intent:admiration
 - oh. This is great
@@ -97,6 +108,12 @@
 - I am great
 - that's so cool
 - delicious
+- wow delicious
+- love it
+- so funny
+- I am so pleased
+- this is great
+- why you so nice
 
 ## intent:amusement
 - i got something show you
@@ -203,6 +220,7 @@
 - Oh! I failed again! What a shame!
 - so embarassed
 - you shouldn't ask this. So awkward!
+- tell me a joke
 
 ## intent:excitement
 - i got praised today
@@ -210,6 +228,7 @@
 - i saved more money than last month
 - i learned to play the piano today
 - i passed my exam
+- i am exciting
 
 ## intent:gratitude
 - thanks a lot!
@@ -233,6 +252,7 @@
 - I saw rainbow today
 - feeling a lot better now
 - haha
+- i am happy
 
 ## intent:love
 - Nice, I love it.
@@ -252,6 +272,7 @@
 - His love for science will never die.
 - They fell in love as soon as they met, it was love at first sight.
 - love you so much
+- love u
 
 ## intent:nervousness
 - I am so worried
@@ -341,6 +362,8 @@
 - playlist
 - any musicplaylist
 - introduce me some playlist based on my current mood
+- introduce me a playlist please
+- Give me a playlist
 
 ## intent:inform
 - The daily calories should be below [1800](targetcalories)
@@ -354,6 +377,13 @@
 - [10000](targetcalories) will do
 - what should i have for dinner tonight
 - [10000000](targetcalories)
+- recipe plz
+- the target calories is [2100](targetcalories)
+- the target calories is [1900](targetcalories)
+- the target calories are [2100](targetcalories)
+- the target calroies is [2100](targetcalories)
+- below [2100](targetcalories)
+- Where are you
 
 ## intent:affirm
 - I feel fat these day
