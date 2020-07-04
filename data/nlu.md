@@ -318,3 +318,15 @@
 - give me some playlist
 - i want a youtube playlist
 - introduce me a playlist
+
+## intent:inform
+- The daily calories should be below [1800](targetcalories)
+- about [2200](targetcalories)
+- below [1900](targetcalories)
+- around [1950](targetcalories)
+- The target calories are [2100](targetcalories)
+- [1900](targetcalories) is good for me.
+
+## intent:affirm
+- I feel fat these day
+- I am fat
