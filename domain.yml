@@ -113,7 +113,9 @@ responses:
   utter_love:
   - text: Love!
   - text: I'm loving this!
-  - text: This is lovely!
+  - image: https://media.giphy.com/media/cstHEo3umAADEfFAvZ/giphy.gif
+    text: This is lovely! Actually, this is how i really felt when i heard this!
+  - text: image:https://media.giphy.com/media/f9Rrghj6TDckb5nZZR/giphy.gif
   utter_optimism:
   - text: You are so right. Remember, always believe that something wonderful is about
       to happen!

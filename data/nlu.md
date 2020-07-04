@@ -200,6 +200,7 @@
 - I feel uncomfortable with this topic.
 - I did something stupid in front of the class. How embarrassing!
 - Oh! I failed again! What a shame!
+- so embarassed
 
 ## intent:excitement
 - i got praised today
@@ -228,6 +229,7 @@
 - i saw rainbow today
 - a dog smiled at me
 - I saw rainbow today
+- feeling a lot better now
 
 ## intent:love
 - Nice, I love it.
@@ -351,3 +353,6 @@
 
 ## intent:lotatest
 - I am lota testing
+- I am lota
+- lota testing
+- I am really lota
