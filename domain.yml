@@ -15,12 +15,25 @@ slots:
     type: unfeaturized
   intent_name:
     type: unfeaturized
+  targetcalories:
+    type: unfeaturized
+  title:
+    type: unfeaturized
+  readyInMinutes:
+    type: unfeaturized
+  recipeID:
+    type: unfeaturized
+  sourceUrl:
+    type: unfeaturized
+  instructions:
+    type: unfeaturized
 
 
 
 entities:
 - location
 - cuisine
+- targetcalories
 
 intents:
   - greet
@@ -53,6 +66,8 @@ intents:
   - surprise
   - introduce_Song
   - music_playlist
+  - affirm
+  - inform
 
 responses:
   utter_console_disappointment:
@@ -159,6 +174,12 @@ responses:
     - text: "Don't forget to get some peace and quiet today. It'll help clear your mind."
     - text: "Let's take a second for one deep breath? Take a deep a deep breath in.(Breathe in till you're on top pf your lungs!) Slowly breath out."
 
+  utter_ask_target_calories:
+    - text: "What are your target daily calories intake?"
+  utter_next_time:
+    - text: "ohh.. Hope to see you next time."
+    - text: "It's okay that you are not ready. Let's do it next time!"
+
 actions:
 - action_search_restaurants
 - action_suggest
@@ -169,3 +190,5 @@ actions:
 - action_suggestplay
 - action_storepreviousintent
 - action_suggestplaylist
+- action_search_recipe
+- action_suggestion
