@@ -219,6 +219,7 @@
 - I can't thank you enough.
 - He thanked me politely.
 - I thanked them for the many kindnesses they showed me.
+- thanks
 
 ## intent:joy
 - i had a good lunch today
@@ -245,6 +246,7 @@
 - I'll pipe your favorite song.
 - His love for science will never die.
 - They fell in love as soon as they met, it was love at first sight.
+- love you so much
 
 ## intent:nervousness
 - I am so worried
@@ -260,6 +262,7 @@
 - be optimistic
 - better things ahead
 - sun shines again
+- i feel so good today
 
 ## intent:pride
 - awesome, I'm proud of you.
@@ -316,6 +319,7 @@
 - your favorite song
 - What's your favorite song?
 - give me song
+- introduce me a playlist
 - give me music
 
 ## intent:music_playlist
@@ -323,7 +327,6 @@
 - music playlist
 - give me some playlist
 - i want a youtube playlist
-- introduce me a playlist
 - give me a playlist
 - give me playlist
 - any music playlist
@@ -347,5 +350,4 @@
 - bye
 
 ## intent:lotatest
-- imlotatesting
 - I am lota testing
