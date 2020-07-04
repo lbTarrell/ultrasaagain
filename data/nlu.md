@@ -67,6 +67,7 @@
 - good afternoon
 - how
 - heya
+- Hey yo what’s up
 
 ## intent:admiration
 - oh. This is great
@@ -139,7 +140,7 @@
 - life is so tiring
 
 ## intent:confusion
-- I’m confused 
+- I’m confused
 - I don’t understand why it happens
 - I’m not sure
 - What is going on
@@ -152,7 +153,7 @@
 - I’m curious
 - What will you regret
 - Why do you say this
-- how it happened 
+- how it happened
 - how things work
 - What is your definition of success
 - did it work
@@ -184,7 +185,7 @@
 - don't be creepy
 - you are acting weird
 - you are acting cree
-- Ugh! My lunch tasted awful. 
+- Ugh! My lunch tasted awful.
 
 ## intent:embarrassment
 - This is shameful.
@@ -278,7 +279,7 @@
 - i dont have hiv
 - i dont have cancer
 - wasnt mad at me
-- didnt lose money 
+- didnt lose money
 
 ## intent:remorse
 - I just can't apologize enough.
@@ -290,10 +291,10 @@
 
 ## intent:surprise
 - Wow
-- Oh wow 
+- Oh wow
 - cool
 - I’m surprised
-- what a surprise 
+- what a surprise
 - you surprised me
 - No wonder
 - I’m shocked
