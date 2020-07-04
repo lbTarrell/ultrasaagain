@@ -124,8 +124,8 @@
 
 ## relief path
 * relief
-  - action_storepreviousintent
-  - utter_relief
+ - action_storepreviousintent
+ - utter_relief
 
 ## remorse path
 * remorse
@@ -139,14 +139,19 @@
 
 ## greet path
 * greet
-  - action_storepreviousintent
-  - utter_greet
+ - action_storepreviousintent
+ - utter_greet
 
 ## hot song path
 * introduce_Song
-- action_searchsong
-- action_suggestsong
+ - action_searchsong
+ - action_suggestsong
 
 ## playlist path
 * music_playlist
-- action_suggestplaylist
+ - action_suggestplaylist
+
+## happy path
+* inform
+ - action_search_recipe
+ - action_suggestion
