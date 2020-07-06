@@ -413,3 +413,7 @@
 ## New Story
 
 * start
+
+## New Story
+
+* get_started
