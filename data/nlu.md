@@ -52,6 +52,8 @@
 - pain
 - i am painful
 - i am sad
+- i feel so sad
+- i am lota tearing
 
 ## intent:greet
 - hi there
@@ -87,6 +89,20 @@
 - hey yo
 - hey ma
 - thanks bye
+- hihi where's my joey?
+- what's up
+- HELO
+- how u doing
+- where are you?
+- Hello
+- Wai
+- Hi
+- ˙hi
+- h
+- how u doin
+- yo man
+- hey man
+- hiiii
 
 ## intent:admiration
 - oh. This is great
@@ -140,6 +156,8 @@
 - How dare you?
 - You piece of shit
 - i'm pissed
+- so mad at u
+- fuck u
 
 ## intent:annoyance
 - you are so annoying
@@ -149,6 +167,7 @@
 - you are so fucking stupid
 - my cat always piss me off
 - my cat pissed me off this morning
+- lol
 
 ## intent:approval
 - I agree with you to some degree.
@@ -167,6 +186,7 @@
 - being alone really sucks
 - life is so tiring
 - Can you be my friend
+- what is going on
 
 ## intent:confusion
 - I’m confused
@@ -206,6 +226,8 @@
 - If you want to sell your product you must advertise it.
 - If you want to be anybody, you must work hard.
 - I want your advice, sir.
+- i need a friend
+- I want a friend
 
 ## intent:disgust
 - This is so disgusting
@@ -228,6 +250,13 @@
 - so embarassed
 - you shouldn't ask this. So awkward!
 - tell me a joke
+- i am embarrassed
+- i am embarrassed by joey
+- embarrassed
+- joke
+- i am embarassed
+- it is embarrassing
+- embarassed
 
 ## intent:excitement
 - i got praised today
@@ -262,6 +291,7 @@
 - haha
 - i am happy
 - happy
+- make me happy
 
 ## intent:love
 - Nice, I love it.
@@ -282,6 +312,9 @@
 - They fell in love as soon as they met, it was love at first sight.
 - love you so much
 - love u
+- love u joey
+- Ok sure I love it
+- love u so much
 
 ## intent:nervousness
 - I am so worried
@@ -300,6 +333,8 @@
 - sun shines again
 - i feel so good today
 - i am good
+- things just happened
+- i am great
 
 ## intent:pride
 - awesome, I'm proud of you.
@@ -364,6 +399,7 @@
 - i need a song
 - what is the best song during shower
 - sing me a song
+- tell me a song
 
 ## intent:music_playlist
 - give me a music playlist
@@ -381,6 +417,11 @@
 - how about playlist
 - How about playlist?
 - how about music playlist
+- MUSIC?
+- i want a playlist
+- Music pls
+- suggest me a playlist
+- just give me a playlist
 
 ## intent:inform
 - The daily calories should be below [1800](targetcalories)
@@ -406,17 +447,28 @@
 - [700000](targetcalories)
 - Cooking recipe
 - i'm hungry
+- FOOD SUGGESTION?
+- [80000](targetcalories)
+- I want to cook something
+- Can you show me some recipe
+- Amazing I’m hungry
+- i am starving
 
 ## intent:affirm
 - I feel fat these day
 - I am fat
 - indeed
 - Yes
+- ho
+- sure
+- you too
 
 ## intent:bye
 - bye
 - thanks and bye
 - cool!! thanks. Bye
+- bye honey
+- bye joice
 
 ## intent:lotatest
 - I am lota testing

@@ -155,15 +155,6 @@
  - action_search_recipe
  - action_suggestion
 
-## imlotatesting
-* lotatest
- - utter_lottatesting
-
-## New Story
-
-* surprise
-    - utter_lottatesting
-
 ## New Story
 
 * greet
@@ -326,12 +317,99 @@
     - slot{"targetcalories":"80000"}
 * bye
     - utter_next_time
-    - slot{"targetcalories":"80000"}
+
+## undefined
+
+* greet
+    - utter_greet
+* greet
+    - utter_greet
+* greet
+    - utter_greet
+* greet
+    - utter_greet
+* greet
+    - utter_greet
+* greet
+    - utter_greet
+* greet
+    - utter_greet
+* greet
+    - utter_greet
+* admiration
+    - action_storepreviousintent
+    - slot{"intent_name":"admiration"}
+    - utter_admiration
+* confusion
+    - action_storepreviousintent
+    - slot{"intent_name":"confusion"}
+    - utter_confusion
+* deny
+    - utter_deny
+
+## New Story
+
+* greet
+    - utter_greet
+* embarrassment
+    - action_storepreviousintent
+    - slot{"intent_name":"embarrassment"}
+    - utter_embarrassment
+    - action_searchjoke
+    - slot{"joke":"“We are all here on earth to help others. What on earth the others are here for I don’t know.” – W. H. Auden"}
+    - action_telljoke
+
+## New Story
+
+* greet
+    - action_storepreviousintent
+    - slot{"intent_name":"greet"}
+    - utter_greet
+* embarrassment
+    - utter_embarrassment
+    - action_searchjoke
+
+## New Story
+
+* greet
+    - action_storepreviousintent
+    - slot{"intent_name":"greet"}
+    - utter_greet
+* love
+    - utter_love
+* introduce_Song
+    - action_searchsong
+    - slot{"song":"Life Is Good"}
+    - slot{"singer":"Future Featuring Drake"}
+    - action_suggestsong
+* music_playlist
+    - action_suggestplaylist
+* gratitude
+    - action_storepreviousintent
+    - slot{"intent_name":"gratitude"}
+    - utter_gratitude
 * bye
     - utter_next_time
-    - slot{"targetcalories":"80000"}
+
+## New Story
+
+* greet
+    - action_storepreviousintent
+    - slot{"intent_name":"greet"}
+    - utter_greet
+* inform
+    - utter_ask_target_calories
+* inform
+    - action_search_recipe
+    - slot{"title":"Blueberry Buttermilk Pancakes"}
+    - slot{"readyInMinutes":25}
+    - slot{"recipeID":245589}
+    - slot{"sourceUrl":"https://www.simplyrecipes.com/recipes/blueberry_buttermilk_pancakes/"}
+    - slot{"instructions":"Cut the florets off the stems and and then chop them into tiny florets. You can also chop up the stems into tiny pieces if you want. You should have about 6 cups of chopped cauliflower. In a large skillet heat 2 tablespoons of olive oil over medium-high heat. Add the cauliflower, 1 teaspoon of salt, rosemary, and sumac. Sauté until cauliflower is tender and starts to brown a bit, stirring as necessary, about 15 minutes. You can also add a bit of olive oil if the pan starts to get too dry or the cauliflower is starting to stick. Meanwhile, in a small skillet, toast the pinenuts over medium heat until golden brown. Set aside. Heat the remaining 2 tablespoons of olive oil in the same pan. Once oil is shimmering, toss in the breadcrumbs and stir, toasting the breadcrumbs. Season with a pinch of kosher salt and a few turns of freshly ground black pepper. Remove from the heat and toss in half of the chopped parsley. When cauliflower is done, remove from the heat and season to taste with freshly ground black pepper and a pinch or so of salt if necessary. Toss in the toasted pine nuts, the chopped raisins, and the remaining parsley. When ready to serve, sprinkle the top with the toasted breadcrumbs and some pecorino."}
+    - action_suggestion
 * bye
     - utter_next_time
-    - slot{"targetcalories":"80000"}
-* bye
-    - utter_next_time
+
+## New Story
+
+* start
